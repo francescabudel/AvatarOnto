@@ -239,6 +239,9 @@
         <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#inspired_by"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#inspires"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_child_of"/>
     </Declaration>
     <Declaration>
@@ -2060,6 +2063,10 @@
         <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_master"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#inspired_by"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#inspires"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_child_of"/>
         <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_parent_of"/>
     </InverseObjectProperties>
@@ -2098,8 +2105,11 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#from"/>
         <ObjectUnionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Group"/>
             <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
             <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Non-bending"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Object"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Transport"/>
         </ObjectUnionOf>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -2137,6 +2147,14 @@
             <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
             <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Object"/>
             <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Transport"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#inspires"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Concept"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Real_World"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Real_World_Timeline"/>
         </ObjectUnionOf>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -2216,7 +2234,25 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#inspired_by"/>
-        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Concept"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Concept"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Real_World"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Real_World_Timeline"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#inspires"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ability"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Concept"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Element"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Event"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Group"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Object"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Transport"/>
+        </ObjectUnionOf>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_child_of"/>
@@ -2276,8 +2312,10 @@
         <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_name"/>
         <ObjectUnionOf>
             <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ability"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Concept"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Element"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Event"/>
             <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Group"/>
-            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Legend"/>
             <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
             <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
             <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Object"/>
@@ -2298,7 +2336,15 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#uses"/>
-        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Melee_Combat"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ability"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Element"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Group"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Object"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Transport"/>
+        </ObjectUnionOf>
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_date"/>
