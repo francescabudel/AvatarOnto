@@ -1,0 +1,1313 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/mainlod"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/mainlod"
+     versionIRI="http://www.semanticweb.org/mainlod">
+    <Prefix name="" IRI="http://www.semanticweb.org/mainlod"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Air"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Air_Bending"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Air_Nation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Animate_Transport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Armament"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Armor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Artillery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Avatar_Circle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Avatar_Legend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Avatar_World"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Belief"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Bending"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Bloodbending"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Combustionbending"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Creature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Culture_and_Tradition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Earth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Earth_Bending"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Earth_Kingdom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Element"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Fire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Fire_Bending"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Fire_Nation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Flying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Hand_Combat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Healing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Inanimate_Transport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Knowledge_Based_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Lavabending"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Legend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Lightning_Generation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Lightning_Redirection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Material_World"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Melee_Combat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Metalbending"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Military_Forces"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Non-bending"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Northern_Water_Tribe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Political_Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ranged_Combat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Real_World"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Real_World_Legend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Real_World_Timeline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Seismic_Sense"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Southern_Water_Tribe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Spirit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Spirit_World"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Spiritbending"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Spiritual_Projection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Transport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Water_Bending"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Water_Tribe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Weapon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Aang&apos;s_Timeline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Korra&apos;s_Timeline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#Energy_Bending"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#United_Republic_of_Nations"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#bends"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#culturally_derives_from"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#existed_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#from"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_ability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_disciple"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_legend"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_master"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#inspired_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#inspires"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_child_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_companion_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_enemy_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_friend_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_parent_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_part_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_related_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_sibling_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#loves"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#participated_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#has_member"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_event"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_fighting_style"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#has_feature"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#known_for"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#uses"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="https://www.avatar.org/participated_in"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Air"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Air_Bending"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Bending"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Air_Bending"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#bends"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Air"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Air_Nation"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Material_World"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Animate_Transport"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Transport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Armament"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Armor"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Armament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Artillery"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Armament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Avatar_Circle"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Group"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Avatar_Legend"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Legend"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Avatar_World"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Belief"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Bending"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Bloodbending"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Water_Bending"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Combustionbending"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Fire_Bending"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Creature"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Culture_and_Tradition"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Earth"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Earth_Bending"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Bending"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Earth_Bending"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#bends"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Earth"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Earth_Kingdom"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Material_World"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Fire"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Fire_Bending"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Bending"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Fire_Bending"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#bends"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Fire"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Fire_Nation"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Material_World"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Flying"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Air_Bending"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Group"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#has_member"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Hand_Combat"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Non-bending"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Healing"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Water_Bending"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Inanimate_Transport"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Transport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Knowledge_Based_Object"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Lavabending"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Earth_Bending"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Legend"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Lightning_Generation"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Fire_Bending"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Lightning_Redirection"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Fire_Bending"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Material_World"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Avatar_World"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Melee_Combat"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Non-bending"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Metalbending"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Earth_Bending"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Military_Forces"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Group"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Non-bending"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Northern_Water_Tribe"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Water_Tribe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Political_Group"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Group"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ranged_Combat"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Non-bending"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Real_World"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Real_World_Legend"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Legend"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Real_World_Timeline"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Seismic_Sense"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Earth_Bending"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Southern_Water_Tribe"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Water_Tribe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Spirit"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Spirit_World"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Avatar_World"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Spiritbending"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Healing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Spiritual_Projection"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Air_Bending"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Water"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Water_Bending"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Bending"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Water_Bending"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#bends"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Water"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Water_Tribe"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Material_World"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Weapon"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Armament"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Aang&apos;s_Timeline"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Korra&apos;s_Timeline"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#Energy_Bending"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Bending"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#United_Republic_of_Nations"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Material_World"/>
+    </SubClassOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_disciple"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_master"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#inspired_by"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#inspires"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_child_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_parent_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_enemy_of"/>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_friend_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_part_of"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#has_member"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#bends"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Bending"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#culturally_derives_from"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ability"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Concept"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Element"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Event"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Group"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Material_World"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Object"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Transport"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#existed_in"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Group"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#from"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Group"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Legend"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Non-bending"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Object"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Transport"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_ability"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_disciple"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_legend"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ability"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Concept"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Event"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Object"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_master"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#inspired_by"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ability"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Concept"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Element"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Event"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Group"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Object"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Transport"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#inspires"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Concept"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Real_World"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Real_World_Timeline"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_child_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_companion_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Creature"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_companion_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Spirit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_enemy_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_friend_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_parent_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_part_of"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Event"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_related_to"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_sibling_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#loves"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#participated_in"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Group"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#has_member"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Group"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#bends"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Element"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#culturally_derives_from"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Culture_and_Tradition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#existed_in"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#from"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_ability"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_disciple"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_legend"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Legend"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_master"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#inspired_by"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Concept"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Real_World"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Real_World_Timeline"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#inspires"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ability"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Concept"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Element"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Event"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Group"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Object"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Transport"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_child_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_companion_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_enemy_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_friend_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_parent_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_part_of"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Event"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Group"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_related_to"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#is_sibling_of"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#loves"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#participated_in"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#has_member"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_date"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_event"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_fighting_style"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ability"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_name"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ability"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Concept"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Element"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Event"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Group"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Object"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Transport"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#has_feature"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Concept"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Group"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#known_for"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#uses"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ability"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Element"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Group"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Living_Being"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Location"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Object"/>
+            <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Transport"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_date"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_event"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_fighting_style"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#has_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#has_feature"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#known_for"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#uses"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Ability</IRI>
+        <Literal>The superclass Ability refers to all the powers, talents and capacities that an individual can use in the Avatar universe. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Air_Bending</IRI>
+        <Literal>The erokinetic ability to control and manipulate air.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Animate_Transport</IRI>
+        <Literal>Subclass describing any kind of animal mount used as transportation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Armament</IRI>
+        <Literal>Subclass containing any kind of armament.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Avatar_Circle</IRI>
+        <Literal>Subclass referring to the closest people to the Avatars.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Avatar_Legend</IRI>
+        <Literal>Legends belonging to the Avatar Universe.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Avatar_World</IRI>
+        <Literal>Subclass describing all the places of the Avatar world.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Belief</IRI>
+        <Literal>Belief is a subclass for any political, religious or philosophical orientation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Bending</IRI>
+        <Literal>Bending was created to address all the bending techniques of the Avatar world (firebending, waterbending, airbending, earthbending) and their respective specializations (here contained as their subclasses)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Bloodbending</IRI>
+        <Literal>Specialized sub-skill and rare variant of waterbending allows an extremely advanced waterbender to take hold of and manipulate fluids within an organism&apos;s body.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Combustionbending</IRI>
+        <Literal>The form of telekinetic firebending.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Concept</IRI>
+        <Literal>Concept addresses all political views, traditions, myths and cultural feats coming both from our world and from Avatar&apos;s universe. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Creature</IRI>
+        <Literal>Subclass used to described any type of animal belonging to the Avatar world.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Culture_and_Tradition</IRI>
+        <Literal>Culture_and_Tradition addresses all references and instances of real-life culture.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Earth_Bending</IRI>
+        <Literal>The geokinetic ability to manipulate earth and rock in all their various form.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Element</IRI>
+        <Literal>Element contains the foundation of the Avatar universe: the four elements.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Event</IRI>
+        <Literal>The superclass Event refers to moments in times and both fictional and non-fictional historical events.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Fire_Bending</IRI>
+        <Literal>The pyrokinetic ability to control and produce fire.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Flying</IRI>
+        <Literal>Highest level of Airbending, unique ability.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Group</IRI>
+        <Literal>Superclass containing any organization or social circle counting more than one individual in it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Hand_Combat</IRI>
+        <Literal>Type of non-bending ability, related to martial arts and physical combat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Healing</IRI>
+        <Literal>A special ability possessed by some waterbenders that enables them to heal those who have been wounded, including themselves.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Inanimate_Transport</IRI>
+        <Literal>Subclass describing any kind of artificial structure used as transportation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Knowledge_Based_Object</IRI>
+        <Literal>Subclass referring to any kind of object capable of transmitting knowledge.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Lavabending</IRI>
+        <Literal>A specialized earth-bending technique allowing to change phase of the earth, melting it into lava for more versatility in battle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Legend</IRI>
+        <Literal>Legend refers to any myth, mythological creature or legend coming coming from our world and, also, from the Avatar universe.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Lightning_Generation</IRI>
+        <Literal>Sub-skill of firebending that allows a firebender to produce and guide a bolt of lightning from their fingertips.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Lightning_Redirection</IRI>
+        <Literal>Sub-skill of firebending that allows a firebender to absorb lightning into their body as energy and release it in a more desirable direction.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Living_Being</IRI>
+        <Literal>Superclass addressing all the existing individuals, creatures and supernatural entities living in the Avatar universe. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Location</IRI>
+        <Literal>Superclass that refers to all kinds of places, both fictional and non-fictional.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Material_World</IRI>
+        <Literal>Subclass defining all the locations belonging to th mortal world of Avatar.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Melee_Combat</IRI>
+        <Literal>Type of non-bending ability, related to any fight involving a short range weapon (like a sword or a dagger).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Metalbending</IRI>
+        <Literal>A specialized earth-bending technique to manipulate metal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Military_Forces</IRI>
+        <Literal>Subclass containing all organizations with a strong military apparatus or attitude.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Non-bending</IRI>
+        <Literal>Non_Bending refers to different combat styles, going from hand-combat, too melee-combat to ranged-combat (here contained as ulterior subclasses)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Object</IRI>
+        <Literal>Superclass defining any kind of tool or resource with a purpose, a physical form and a shape.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Person</IRI>
+        <Literal>Subclass referring to human beings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Political_Group</IRI>
+        <Literal>Subclass referring to any political party or government apparatus.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Ranged_Combat</IRI>
+        <Literal>Type of non-bending ability, related to any fighting technique involving a long-range weapon (such as a bow or a gun).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Real_World</IRI>
+        <Literal>Subclass containing all the reference to actual locations and places coming from our world.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Real_World_Legend</IRI>
+        <Literal>Legends belonging to our world.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Real_World_Timeline</IRI>
+        <Literal>Subclass referring to all real life events used as inspiration or reference in the Avatar universe.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Seismic_Sense</IRI>
+        <Literal>A specialized earth-bender technique for sensing vibrations through the ground, &quot;seeing&quot; by sensing its surroundings and making a mental image of it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Spirit</IRI>
+        <Literal>Subclass defining supernatural entities of the Avatar world.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Spirit_World</IRI>
+        <Literal>The dimension where the spirits live.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Spiritbending</IRI>
+        <Literal>Spiritbending is a variation of the healing technique which allows the user to instill a balance or an imbalance within spirits.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Spiritual_Projection</IRI>
+        <Literal>A specialized airbending technique that consists of projecting one&apos;s spirit out of the body to travel to another location.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Transport</IRI>
+        <Literal>Superclass defining any kind of transportation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Water_Bending</IRI>
+        <Literal>The hydrokinetic ability to control water in all of its various forms.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#bends</IRI>
+        <Literal>Describes the capacity of a living being of bending a specific element or defines the element influenced trough the use of a bending technique.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#culturally_derives_from</IRI>
+        <Literal>Highlights the cultural connection between a fictional element (ex. &quot;Kyoshi Warriors&quot;) and a cultural instance belonging to our reality (ex. &quot;Geisha&quot;)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#existed_in</IRI>
+        <Literal>Describes if a specific group or individual has participated to an historical event.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#existed_in</IRI>
+        <Literal>Describes if a specific individual or group of individuals has lived trough a specific timeline or event.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#from</IRI>
+        <Literal>Defines the provenance of a specific element.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#has_ability</IRI>
+        <Literal>Indicates any ability possessed by a living being.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#has_date</IRI>
+        <Literal>Refers to the date of a specific event.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#has_disciple</IRI>
+        <Literal>Describes the teacher-student relationship between two living beings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#has_event</IRI>
+        <Literal>Defines any event belonging to a timeline.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#has_fighting_style</IRI>
+        <Literal>Defines the fighting style of a bending technique or a fighting technique known by a character.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#has_legend</IRI>
+        <Literal>Refers to any possible connection between a fictional element and a legend about it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#has_master</IRI>
+        <Literal>Describes the teacher-student relationship between two living beings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#has_name</IRI>
+        <Literal>Introduces the name of a fictional or real element.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#inspired_by</IRI>
+        <Literal>Describes how a fictional element  was inspired by a real historical, scientific or political element.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#inspires</IRI>
+        <Literal>Defines how an historical, scientific or political element from our world inspired a fictional element of the Avatar world.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#is_child_of</IRI>
+        <Literal>Describes the familial relationship between two living beings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#is_companion_of</IRI>
+        <Literal>Describes the bond between a creature or a spirit and a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#is_enemy_of</IRI>
+        <Literal>Describes the relationship between two living beings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#is_friend_of</IRI>
+        <Literal>Describes the relationship between two living beings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#is_parent_of</IRI>
+        <Literal>Describes the familial relationship between two living beings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#is_part_of</IRI>
+        <Literal>Describes the relationship between a fictional element and the group it belongs to.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#is_related_to</IRI>
+        <Literal>Describes the familial relationship between two living beings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#is_sibling_of</IRI>
+        <Literal>Describes the familial relationship between two living beings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#loves</IRI>
+        <Literal>Describes the relationship between two living beings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Aang&apos;s_Timeline</IRI>
+        <Literal>Subclass referring to all the events contained into Aang&apos;s timeline as annotations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Korra&apos;s_Timeline</IRI>
+        <Literal>Subclass referring to all the events contained into Korra&apos;s timeline as annotations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#Energy_Bending</IRI>
+        <Literal>The ability to bend another person&apos;s life energy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#has_feature</IRI>
+        <Literal>Describes any relevant and particular trait that a fictional or real element could have.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#has_member</IRI>
+        <Literal>Describes the relationship between a group and its members.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#known_for</IRI>
+        <Literal>Explicits a trait that a location is known for by the public.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/francesca/ontologies/2022/6/untitled-ontology-7#uses</IRI>
+        <Literal>Refers to any element used to be obtain something, perform an ability or bring an advantage to another individual or entity.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
